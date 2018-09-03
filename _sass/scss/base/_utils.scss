@@ -1,0 +1,51 @@
+// Utilities
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// Color
+.u-blue-dark {
+  color: $blue-dark;
+}
+
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+
+.u-block {
+  display: block;
+}
+
+.u-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Margin
+@include margin(4, y);
+.u-mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Padding
+@include padding(4, top);
+
+
+// Text
+.u-text-center {
+  text-align: center;
+}
+
+
+// Width
+.u-w-75 {
+  width: 75%;
+}

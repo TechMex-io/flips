@@ -1,0 +1,52 @@
+// $d: '';
+
+@mixin padding($n, $direction) {
+  @if $direction == 'bottom' {
+    .u-pb-#{$n} {
+      padding-#{$direction}: $n * 8px;
+    }
+  }
+  @if $direction == 'top' {
+    .u-pt-#{$n} {
+      padding-#{$direction}: $n * 8px;
+    }
+  }
+
+}
+
+
+
+@mixin margin($n, $direction:'') {
+
+  @if $direction == 'bottom' {
+    .u-mb-#{$n} {
+      margin-#{$direction}: $n * 8px;
+    }
+  }
+  @if $direction == 'top' {
+    .u-mt-#{$n} {
+      margin-#{$direction}: $n * 8px;
+    }
+  }
+
+  @if $direction == 'x' {
+    .u-m#{$direction}-#{$n} {
+      margin-left: $n * 8px;
+      margin-right: $n * 8px;
+    }
+  }
+  @if $direction == 'y' {
+    .u-m#{$direction}-#{$n} {
+      margin-bottom: $n * 8px;
+      margin-top: $n * 8px;
+    }
+  }
+  @if $direction == '' {
+    .u-m-#{$n} {
+      margin: $n * 8px;
+    }
+  }
+
+}
+
+
