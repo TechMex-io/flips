@@ -724,7 +724,7 @@ body {
   background-color: #fff; }
 
 .wrapper-grid {
-  background-image: url("/assets/images/grid-wrapper__bottom.svg");
+  background-image: url("/flips/assets/images/grid-wrapper__bottom.svg");
   background-position: bottom;
   background-repeat: no-repeat; }
 
