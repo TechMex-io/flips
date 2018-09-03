@@ -2,7 +2,9 @@
 layout: default
 ---
 
-<div class="home">
+{%- include image-grid.html -%}
+
+<div class="home wrapper-white">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
