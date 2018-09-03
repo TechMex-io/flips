@@ -23,11 +23,21 @@ body {
 a {
   color: $link-color;
   transition: all .3s ease-in-out;
-  
+
   &:hover {
     color: darken($link-color, 5%);
   }
 }
+
+
+// Misc
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
 
 // Misc
 //––––––––––––––––––––––––––––––––––––––––––––––––––
